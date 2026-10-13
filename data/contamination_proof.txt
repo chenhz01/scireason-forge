@@ -1,0 +1,4 @@
+uniqueness: 12500 sampled, 0 duplicate ids
+reproducibility: same seed -> byte-identical  OK
+fresh-exam demo: seed 999999 -> unit-analysis-0404f4731a
+CONTAMINATION-PROOF: ALL CHECKS PASS

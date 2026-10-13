@@ -50,6 +50,14 @@ answer from `problem["meta"]` and authoritative tables/formulas, then
 compares. Corrupt any answer field and grading fails — this is the property
 that makes the dataset safe as a reward signal (RLVR-style) and as a bench.
 
+## Contamination-proof guarantees (data/contamination_proof.txt)
+
+- 12,500 sampled problems across 5 types: **0 duplicate ids**
+- same seed → byte-identical problem (regeneration is exact)
+- unseen seed range → brand-new exam, on demand
+- W2 pool: 100,000 problems shipped locally (20,000 per type), **100,000/100,000
+  solver-graded pass** — regenerate with the one-liner above
+
 ## When NOT to use
 
 - You need open-ended natural-science questions with free-form prose answers
